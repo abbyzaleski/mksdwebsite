@@ -52,6 +52,7 @@ main {
   max-width: 1000px;
   margin: 0 auto;
   padding-bottom: 100px;
+  padding-top: 300px;
 }
 
 footer {
@@ -66,11 +67,15 @@ footer {
 p {
   font-family: lucida sans;
   font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 25px;
 }
+
 /* Home Page CSS styling */
 
 .intro-image {
-  padding-top: 300px;
+  padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -146,4 +151,62 @@ h2 {
   font-size: 25px;
   background-color: #ffffff;
   border: none;
+}
+
+/* Registration Page CSS Styling */
+.register {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 0px 30px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 40px;
+}
+
+.schedule {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 0px 30px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.policies {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 0px 30px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.dates {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 0px 30px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
 }
