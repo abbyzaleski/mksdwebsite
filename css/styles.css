@@ -51,7 +51,7 @@ a:hover {
 main {
   max-width: 1000px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   padding-top: 300px;
 }
 
@@ -59,7 +59,7 @@ footer {
   overflow: hidden;
   background-color: #31cacf;
   position: relative;
-  height: 100px;
+  height: 150px;
   top: 0;
   width: 100%;
 }
@@ -94,7 +94,6 @@ h1 {
   border-style: solid;
   font-family: spumante;
   font-size: 40px;
-
 }
 
 h2 {
@@ -209,4 +208,76 @@ h2 {
   padding-bottom: 10px;
   position: relative;
   margin-bottom: 10px;
+}
+
+/* Recital page CSS Styling */
+.topleft {
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  border: solid;
+}
+
+.topcenter {
+
+}
+
+.topright {
+
+}
+
+.rehearsal {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 5px 50px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 30px;
+}
+
+.recital {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 5px 50px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 30px;
+}
+
+.costumes {
+  color: #f90981;
+  text-align: center;
+  background-color: #f6b5d5;
+  margin: 5px 50px 0px;
+  border: #31cacf;
+  border-radius: 7px;
+  border-style: solid;
+  font-family: spumante;
+  font-size: 30px;
+}
+
+.bottomleft {
+
+}
+
+.bottomcenter {
+
+}
+
+.bottomright{
+
+}
+
+/* Performance Company Page CSS Styling */
+.aboutpc {
+  font-family: lucida sans;
+  font-size: 15px;
+  margin: 10px 25px 10px;
+  float: left;
 }
