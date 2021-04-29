@@ -129,6 +129,11 @@ h2 {
   float: right;
 }
 
+.left-column, .right-column {
+  width: 49%;
+  display: inline-block;
+}
+
 .column2 {
   position: relative;
   float: left;
@@ -141,6 +146,8 @@ h2 {
   font-size: 25px;
   background-color: #ffffff;
   border: none;
+  float: none;
+  margin: 0;
 }
 
 .about2 {
@@ -150,6 +157,8 @@ h2 {
   font-size: 25px;
   background-color: #ffffff;
   border: none;
+  float: none;
+  margin: 0;
 }
 
 /* Registration Page CSS Styling */
@@ -211,19 +220,9 @@ h2 {
 }
 
 /* Recital page CSS Styling */
-.topleft {
-  width: 350px;
-  height: auto;
-  margin: 10px;
-  border: solid;
-}
-
-.topcenter {
-
-}
-
-.topright {
-
+.recital-images {
+  width: 32%;
+  display: inline-block;
 }
 
 .rehearsal {
@@ -262,26 +261,32 @@ h2 {
   font-size: 30px;
 }
 
-.bottomleft {
-
-}
-
-.bottomcenter {
-
-}
-
-.bottomright{
-
-}
-
 /* Performance Company Page CSS Styling */
 .aboutpc {
   font-family: lucida sans;
   font-size: 15px;
   margin: 10px 25px 10px;
   float: left;
+  width: 50%;
 }
 
 .container {
-  float: right
+  float: right;
+  position: relative;
+  width: 30%;
+}
+
+.pc1 {
+  margin: 10px 40px 20px;
+  border: solid 10px;
+}
+
+.pc2 {
+  margin: 10px 40px 20px;
+  border: solid 10px;
+}
+
+.pc3 {
+  margin: 10px 40px 20px;
+  border: solid 10px;
 }
