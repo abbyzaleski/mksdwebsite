@@ -67,10 +67,10 @@ footer {
 }
 
 p {
-  font-family: lucida sans;
-  font-size: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   margin: 25px;
 }
 
@@ -103,14 +103,16 @@ h1 {
 h2 {
   float: right;
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   background-color: #f6b5d5;
   margin: 10 px;
   padding: 25px;
   margin: 40px 50px 75px;
   border: #31cacf;
   border-style: solid;
-  font-family: lucida sans;
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* About Page CSS Styling */
@@ -285,8 +287,10 @@ h2 {
 
 /* Performance Company Page CSS Styling */
 .aboutpc {
-  font-family: lucida sans;
-  font-size: 15px;
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   margin: 10px 25px 10px;
   float: left;
   width: 50%;
@@ -295,7 +299,7 @@ h2 {
 .container {
   float: right;
   position: relative;
-  top: -370px;
+  top: -470px;
   width: 35%;
 }
 
@@ -315,3 +319,30 @@ h2 {
 }
 
 /* Summer Camp Page CSS Styling */
+.leftsummertop, .leftsummerbottom {
+  width: 49%;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+
+.rightsummertop, .rightsummerbottom {
+  width: 49%;
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.summercampheading {
+  font-family: spumante, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f90981;
+
+}
+
+.campinfo {
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
