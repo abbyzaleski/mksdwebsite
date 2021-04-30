@@ -64,14 +64,20 @@ footer {
   height: 150px;
   top: 0;
   width: 100%;
+  padding-top: 20px
 }
 
 .footerlinks {
-
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 .address {
-  
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 p {
@@ -128,14 +134,14 @@ h2 {
   padding-top: 10px;
   border-style: solid;
   border-color: black;
-  border-radius: 7px;
+  margin-left: 80px;
 }
 
 .about-image2 {
   padding-top: 10px;
   border-style: solid;
   border-color: black;
-  border-radius: 7px;
+  margin-left: 80px;
 }
 
 .column1 {
@@ -146,6 +152,8 @@ h2 {
 .left-column, .right-column {
   width: 49%;
   display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
 }
 
 .column2 {
@@ -159,7 +167,7 @@ h2 {
   font-family: spumante, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 40px;
   background-color: #ffffff;
   border: none;
   float: none;
@@ -172,11 +180,12 @@ h2 {
   font-family: spumante, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 40px;
   background-color: #ffffff;
   border: none;
   float: none;
   margin: 0;
+  padding: 0;
 }
 
 /* Registration Page CSS Styling */
@@ -249,6 +258,9 @@ h2 {
 .recital-images {
   width: 32%;
   display: inline-block;
+  border: black;
+  border-style: solid;
+  border-width: thick;
 }
 
 .rehearsal {
@@ -346,11 +358,20 @@ h2 {
   font-weight: 400;
   font-style: normal;
   color: #f90981;
-
+  margin: 20px 40px 20px;
+  font-size: 35px;
 }
 
 .campinfo {
   font-family: pt-sans-pro-narrow, sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.campclasses {
+  margin: 2px;
+  margin-left: 50px;
 }
