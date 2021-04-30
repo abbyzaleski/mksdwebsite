@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>MKSD Home Page</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/mksdcolorlogofavicon.JPG"/>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/cht7tcn.css">
@@ -38,6 +39,42 @@
           <h2>Welcome to Melissa Kathleen's School of Dance
             and thank you for your interest in our studio. MKSD was founded in 1998 and aims to provide quality dance education in a fun and enriching environment. Please take a moment to look around the site and if you need any assistance, contact us at <span style="color: #f90981"> mksd5678@gmail.com</span>.</h2>
         </section>
+
+        <div class="contactform">
+          <h3>Contact Us</h3>
+          <p>Please reach out to us through this form, and we will get back to you as quickly as possible!</p>
+          <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+              <div class="first-name input-section">
+                <label for="firstname" class="label_input_wrap">First Name:</label>
+                <input type="text" name="firstname" id="firstname" />
+              </div>
+
+              <div class="last-name input-section">
+                <label for="lastname" class="label_input_wrap">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" />
+              </div>
+
+              <div class="email input-section">
+                <label for="email" class="label_input_wrap">Email:</label>
+                <input type="email" name="email" id="email" />
+              </div>
+
+              <div class="telephone input-section">
+                <label for="telephone" class="label_input_wrap">Telephone:</label>
+                <input type="tel" name="telephone" id="telephone" placeholder="123-456-7890" />
+              </div>
+
+              <div class="comments input-section">
+                <label for="comments" class="label_input_wrap">Comments:</label>
+                <textarea name="comments" id="comments"  cols="60" rows="10" placeholder="Leave Me A Message"></textarea>
+              </div>
+
+              <div class="submit input-section">
+                <input type="submit" value="Submit Here"/>
+              </div>
+
+            </form>
+          </div>
 
     </main>
 

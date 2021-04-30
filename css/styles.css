@@ -106,6 +106,7 @@ footer {
   font-family: pt-sans-pro-narrow, sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: black;
   font-size: 20px;
   text-align: right;
   position: relative;
@@ -161,13 +162,82 @@ h2 {
   background-color: #f6b5d5;
   margin: 10 px;
   padding: 25px;
-  margin: 40px 50px 75px;
+  margin: 40px 50px 30px;
   border: #31cacf;
   border-style: solid;
   font-family: pt-sans-pro-narrow, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+h3 {
+  color: #f90981;
+  text-align: center;
+  margin: 5px 50px 0px;
+  font-family: spumante, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.contactform {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form {
+  background: #f6bfdf;
+  padding: 25px;
+  max-width: 500px;
+  border: #31cacf;
+  border-radius: 5px;
+  color: black;
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: left
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.submit input {
+  background: white;
+  color: black;
+  padding: 5px 20px;
+}
+
+.input-section {
+  margin-bottom:  5px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    font-family: initial;
+    padding: 5px 10px;
+}
+
+input:invalid {
+  background-color: red;
+}
+
+input:valid {
+  background-color: white;
+}
+
+label:hover {
+  background-color: hotpink;
+  padding: 5px 10px;
+}
+
 
 /* About Page CSS Styling */
 .about-image1 {
