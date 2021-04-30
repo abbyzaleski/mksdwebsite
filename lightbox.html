@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MKSD Home Page</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/mksdcolorlogofavicon.JPG"/>
+
+    <meta name="description" content="Melissa Kathleen's School of Dance, located in Albemarle, NC"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cht7tcn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cht7tcn.css">
+
+    <script type="text/text/javascript">
+      let slideIndex = 1;
+        showSlide(slideIndex);
+
+        function openLightbox() {
+          document.getElementById('Lightbox').style.display = 'block'; }
+
+        function closeLightbox() {
+          document.getElementById('Lightbox').style.display = 'none'; };
+
+        function changeSlide(n) {
+          showSlide(slideIndex += n);
+            };
+
+        function toSlide(n) {
+          showSlide(slideIndex = n);
+            };
+
+        function showSlide(n) {
+          const slides = document.getElementsByClassName('slide');
+          let modalPreviews = document.getElementsByClassName('modal-preview');
+
+        if (n > slides.length) {
+          slideIndex = 1;
+            };
+
+        if (n < 1) {
+          slideIndex = slides.length;
+            };
+
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+            };
+
+        for (let i = 0; i < modalPreviews.length; i++) {
+          modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+            };
+
+        slides[slideIndex - 1].style.display = 'block';
+        modalPreviews[slideIndex - 1].className += ' active';
+          };
+    </script>
+
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="home.html">
+        <img src="images/mksdcolorlogo.JPG" alt="MKSD Logo" width="400" class="center">
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="recital.html">Recital</a></li>
+          <li><a href="performancecompany.html">Performance Company</a></li>
+          <li><a href="summercamp.html">Summer Camp</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <!-- images -->
+      <div class="row">
+        <div class="col">
+          <img src="images/aladdinproduction.JPG" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Aladdin" />
+        </div>
+        <div class="col">
+          <img src="images/littlelyrical.JPG" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="Pure Imagination" />
+        </div>
+        <div class="col">
+          <img src="images/hairsprayproduction.JPG" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Hairspray" />
+        </div>
+      </div>
+
+      <!-- lightbox -->
+      <div id="Lightbox" class="modal">
+        <span class="close pointer" onclick="closeLightbox()">&times;</span>
+        <div class="modal-content">
+            <div class="slide">
+              <img src="images/aladdinproduction.JPG" class="image-slide" alt="Aladdin" />
+            </div>
+            <div class="slide">
+              <img src="images/littlelyrical.JPG" class="image-slide" alt="Pure Imagination" />
+            </div>
+            <div class="slide">
+              <img src="images/hairsprayproduction.JPG" class="image-slide" alt="Hairspray" />
+            </div>
+
+        <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+        <div class="dots">
+          <div class="col">
+            <img src="images/aladdinproduction.JPG" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Aladdin" />
+          </div>
+          <div class="col">
+            <img src="images/littlelyrical.JPG" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Pure Imagination" />
+          </div>
+          <div class="col">
+            <img src="images/hairsprayproduction.JPG" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Hairspray" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+
+    <footer>
+      <div class="column2f">
+        <div class="left-columnf">
+          <a href="home.html">
+            <img src="images/mksdcolorlogofooter.JPG" alt="MKSD Logo" width="200" height="100" class="bottom">
+          </a>
+            <nav class="footerlinks">
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="recital.html">Recital</a></li>
+                <li><a href="performancecompany.html">Performance Company</a></li>
+                <li><a href="summercamp.html">Summer Camp</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="column1f">
+          <div class="right-columnf">
+            <h3 class="address">Melissa Kathleen's School of Dance</h3>
+            <h3 class="address">151 N 1st St, Albemarle, NC 28001</h3>
+            <h3 class="address">(704) 982-0528</h3>
+            <h3 class="address">mksd5678@gmail.com</h3>
+          </div>
+        </div>
+    </footer>
+
+  </body>
+</html>
