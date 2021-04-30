@@ -344,10 +344,38 @@ h2 {
   color: #f90981;
 }
 
+.pcauditions {
+  float: left;
+  position: relative;
+  text-align: center;
+  background: #f6b5d5;
+}
+
+.auditionheader {
+  float: left;
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px
+}
+
+.auditions {
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px
+}
+
+.auditionssub {
+  font-family: pt-sans-pro-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px
+}
+
 .container {
   float: right;
   position: relative;
-  top: -570px;
   width: 35%;
 }
 
